@@ -1,0 +1,15 @@
+{
+  "node": true,
+  "esversion": 6,
+  "eqeqeq": true,
+  "globals": {
+    "Promise": true
+  },
+  "indent": 2,
+  "latedef": true,
+  "newcap": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "eqnull": true
+}

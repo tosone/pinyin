@@ -9,7 +9,7 @@ class Pinyin {
     let ret = [];
     let reg = new RegExp('[a-zA-Z0-9\- ]');
     if (str && str.length !== 0) {
-      _.forEach(str, (val, key) => {
+      _.forEach(str, val => {
         if (reg.test(val)) {
           if (ret.length !== 0 && !this.isZh) {
             ret.push(ret.pop() + val);
