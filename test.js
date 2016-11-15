@@ -2,4 +2,4 @@
 
 const convertPinyin = require('.');
 
-console.log(convertPinyin.get("先土豆丝是的发送到"));
+console.log(convertPinyin("先土豆丝是的发送到"));
