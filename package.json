@@ -1,6 +1,6 @@
 {
   "name": "convertPinyin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "convertPinyin",
   "main": "index.js",
   "scripts": {
