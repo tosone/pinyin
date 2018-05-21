@@ -1,5 +1,3 @@
-'use strict';
-
 const Data = require('./data.json');
 const _ = require('lodash');
 
@@ -41,5 +39,6 @@ class Pinyin {
     return ret;
   }
 }
+
 let pinyin = new Pinyin();
 module.exports = pinyin.get.bind(pinyin);
